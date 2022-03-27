@@ -1,0 +1,56 @@
+.welcome{
+    height: 150px;
+    text-align: center;
+    padding: 40px;
+}
+.w-group-1{
+    display: flex;
+    margin: 0px 10px 10px 10px;
+}
+.w-boxes{
+    width: 33%;
+    background-color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+}
+.w-boxes h2{
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 50px;
+}
+.w-boxes button{
+    padding: 10px;
+    border:none;
+    background-color:#59c1dc ;
+    color: white;
+}
+.w-boxes button:hover{
+    cursor: pointer;
+}
+/* BOTTOM AREA*/
+.w-group-2{
+    margin: 20px;
+}
+.w-boxes-2{
+    
+}
+.w-grafico{
+    position: relative;
+}
+.w-geral{
+    width: 50%;
+    background-color: #ffff;
+}
+.w-graficos-geral{
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+}
+.w-box-graficos{
+    width: 33%;
+    padding: 10px;
+}
+.w-box-grafico h2{
+    font-size: 12px !important;
+}
