@@ -6,7 +6,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             datasets: [{ 
                 data: [,30,-15,-25,-35,-30,3,30],
                 label: "",
-                borderColor: "#ff0000",
+                borderColor: "#73b4c8",
                 tension: 0,
                 backgroundColor: "",
                 fill: false,
@@ -24,7 +24,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             datasets: [{ 
                 data: [,30,-15,-25,-35,-30,3,30],
                 label: "",
-                borderColor: "#ff0000",
+                borderColor: "#73b4c8",
                 tension: 0,
                 backgroundColor: "",
                 fill: false,
@@ -42,7 +42,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             datasets: [{ 
                 data: [,30,-15,-25,-35,-30,3,30],
                 label: "",
-                borderColor: "#ff0000",
+                borderColor: "#73b4c8",
                 tension: 0,
                 backgroundColor: "",
                 fill: false,
