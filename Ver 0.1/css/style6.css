@@ -1,0 +1,20 @@
+.bloco-mestre{
+    display: flex;
+}
+.sub-blocos{
+    width: 50%;
+    margin: 20px; 
+}
+.sub-bloco-1{
+    background-color: #ffff;
+}
+.sub-navegacao{
+    display: flex;
+    font-size: 10px;
+    height: 55px;
+    align-items: center;
+}
+.sub-navegacao h2{
+    margin: 10px;
+    color: rgb(99, 98, 98);
+}
