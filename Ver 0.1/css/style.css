@@ -255,6 +255,14 @@ body{
 .linhas-2 p{
     margin-left: 20px;
 }
+.agradecimento{
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid rgb(197, 197, 197);
+}
+.heightvh{
+    height: 100vh;
+}
 /*RESPOSIVIDADE*/
 
 @media (max-width:1390px){

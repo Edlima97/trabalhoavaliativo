@@ -1,14 +1,14 @@
 
-let ativo1 = document.querySelector('.ativo1')
-let ativo2 = document.querySelector('.ativo2')
-let ativo3 = document.querySelector('.ativo3')
-let ativo4 = document.querySelector('.ativo4')
+var ativo1 = document.querySelector('.ativo1')
+var ativo2 = document.querySelector('.ativo2')
+var ativo3 = document.querySelector('.ativo3')
+var ativo4 = document.querySelector('.ativo4')
 
-let show0= document.querySelector('.show0')
-let show1= document.querySelector('.show1')
-let show2= document.querySelector('.show2')
-let show3= document.querySelector('.show3')
-let show4= document.querySelector('.show4')
+var show0= document.querySelector('.show0')
+var show1= document.querySelector('.show1')
+var show2= document.querySelector('.show2')
+var show3= document.querySelector('.show3')
+var show4= document.querySelector('.show4')
 
 ativo1.addEventListener('click', function(){
     show1.classList.remove('show1')
@@ -37,4 +37,41 @@ ativo4.addEventListener('click', function(){
     show2.classList.add('show2')
     show3.classList.add('show3')
     show1.classList.add('show1')
+})
+
+
+let active = document.querySelectorAll('.active')
+let active1 = document.querySelector('.active1')
+let bords1 = document.querySelector('bords1')
+let bords2 = document.querySelector('bords2')
+let bords3 = document.querySelector('bords3')
+let bords4 = document.querySelector('bords4')
+
+ativo1.addEventListener('click', function(){
+    ativo1.classList.add('active')
+    ativo1.classList.remove('active')
+    ativo2.classList.remove('active')
+    ativo3.classList.remove('active')
+    ativo4.classList.remove('active')
+})
+ativo2.addEventListener('click', function(){
+    ativo2.classList.add('active')
+    ativo1.classList.remove('active')
+    ativo1.classList.remove('active')
+    ativo3.classList.remove('active')
+    ativo4.classList.remove('active')
+})
+ativo3.addEventListener('click', function(){
+    ativo3.classList.add('active')
+    ativo1.classList.remove('active')
+    ativo1.classList.remove('active')
+    ativo2.classList.remove('active')
+    ativo4.classList.remove('active')
+})
+ativo4.addEventListener('click', function(){
+    ativo4.classList.add('active')
+    ativo1.classList.remove('active')
+    ativo1.classList.remove('active')
+    ativo3.classList.remove('active')
+    ativo2.classList.remove('active')
 })
