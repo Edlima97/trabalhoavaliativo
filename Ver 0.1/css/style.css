@@ -18,7 +18,6 @@ body{
 }
 .conteudo-geral{
     width: 100%;
-    height: 100vh;
 }
 .sub-conteudo-1{
     padding: 20px;
@@ -41,7 +40,7 @@ body{
     white-space: nowrap;
 }
 .bar-navegacao:hover{
-    width: 15%;
+    width: 12%;
 }
 .bar-navegacao li{
     padding: 10px;
@@ -75,6 +74,17 @@ body{
 .fa-bars{
     display: none;
 }
+/*NOTIFICAÇAO*/
+.caixa-notificacao-1{
+    position: absolute;
+    background-color: rgb(153, 152, 152);
+    width: 280px;
+    height: 160px;
+    border-radius: 5px;
+    right: 8%;
+    top: 6%;
+    padding: 10px;
+}
 /*CONTEUDO SITE*/
 
 .cabecalho{
@@ -89,10 +99,19 @@ body{
     margin-left: 5%;
     color: #5e5e68;
 }
+.btn-btn button{
+    background-color: #01b400;
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
 .usuario{
     display: flex;
     margin-right: 3%;
     align-items: center;
+    position: relative;
 }
 .usuario i{
     color:#afb3b2;
@@ -103,7 +122,27 @@ body{
 #img-perfil{
     border-radius:50%;
 }
-
+.btn-notificacao{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-notificacao p{
+    text-align: center;
+    margin-top: 2px;
+}
+.btn-notifi-1{
+    top: 22%;
+    left: 7%;
+}
+.btn-notifi-2{
+    top: 22%;
+    left: 36%;
+}
 /* sub conteudo 1 */
 .boxes{
     width: 33.3%;

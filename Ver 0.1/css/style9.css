@@ -28,6 +28,16 @@
     align-items: center;
     width:500px; 
 }
+.doc-linha-2 p{
+    margin-top:10px ;
+    font-size: 11px;
+}
 .alinhador{
     width: 140px;
+}
+.doc-caixa-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    font-size: 13px;
 }
