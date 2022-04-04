@@ -72,7 +72,7 @@
 .projeto{
     display: flex;
     border-top: 1px solid #8080804f;
-    height: 70px;
+    height: auto;
     align-items: center;
 }
 .projeto select{
@@ -121,4 +121,44 @@
 }
 .proj-5 .sub-text-5 i{
     color: blue;
+}
+
+@media (max-width: 798px) {
+    .boxes-wel {
+        display: block;
+    }
+
+    .box-wel {
+        width: auto;
+    }
+
+    .sub-text {
+        font-size: 9px;
+        margin: 0px 3px;
+        width: 20%;
+    }
+
+    .sub-text h2 {
+        font-size: 8px;
+    }
+    
+    .projeto select {
+        margin-right: 40px;
+        font-size: 9px
+    }
+
+    .sub-text-2 {
+        margin-left: 5px;
+    }
+
+    .projeto select {
+        margin-right: 2px;
+    }
+
+    .sub-info-top {
+        width: 100%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
 }

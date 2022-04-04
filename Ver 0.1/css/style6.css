@@ -222,4 +222,100 @@
 .active{
     border-bottom: 4px solid rgb(92, 240, 92);
 }
+.btn-notifi-1{
+    left: 52%;
+}
+.btn-notifi-2{
+    left: 66%;
+}
+
+@media (max-width:1390px) {
+    .bloco-mestre {
+        display: block;
+    }
+
+    .sub-blocos {
+        width: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .cabecalho {
+        font-size: 8px;
+    }
+
+    .bloco-mestre {
+        display: block;
+    }
+
+    .sub-blocos {
+        width: auto;
+        margin: 10px;
+        font-size: 9px;
+    }
+
+    .sub-navegacao h2 {
+        margin: 7px;
+        font-size: 9px;
+        width: 20%;
+    }
+
+    .title-cont-top h2 {
+        font-size: 12px
+    }
+
+    .conteudo-texto h2 {
+        font-size: 10px;
+    }
+
+    .conteudo-texto strong {
+        font-size: 10px;
+    }
+
+    .sub-cont-today p {
+        font-size: 7px;
+    }
+
+    .top-perfil img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .ratings {
+        font-size: 7px;
+    }
+
+    .ratings h2 {
+        font-size: 10px;
+    }
+
+    .sub-produto {
+        font-size: 10px;
+    }
+
+    .sub-produto i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cartao-info {
+        font-size: 8px;
+    }
+
+    .cartao-info h3 {
+        margin: 0 auto;
+    }
+
+    .card-info {
+        font-size: 8px;
+    }
+
+    .card-info h2 {
+        font-size: 9px;
+    }
+
+    .card-info h3 {
+        font-size: 8px;
+    }
+}
 

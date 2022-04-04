@@ -40,7 +40,7 @@ body{
     white-space: nowrap;
 }
 .bar-navegacao:hover{
-    width: 12%;
+    width: 180px;
 }
 .bar-navegacao li{
     padding: 10px;
@@ -74,16 +74,50 @@ body{
 .fa-bars{
     display: none;
 }
+
 /*NOTIFICAÇAO*/
-.caixa-notificacao-1{
+.caixa-notificacao{
     position: absolute;
-    background-color: rgb(153, 152, 152);
+    background-color: rgb(155, 188, 205);
     width: 280px;
-    height: 160px;
+    height: auto;
     border-radius: 5px;
     right: 8%;
     top: 6%;
     padding: 10px;
+    box-shadow: 2px 3px 10px 1px black;
+    display: none;
+}
+.top-side-notificacao{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.top-side-notificacao .fa-times-circle{
+    color: white;
+    cursor: pointer;
+}
+.top-side-notificacao .fa-times-circle:hover{
+    color: red;
+}
+.conj-noti{
+    border-top: 1px solid rgb(162, 162, 162);
+    display: flex;
+}
+.menssage-noti{
+    display: flex;
+    margin: 10px;
+    cursor: pointer;
+}
+.conj-noti:hover{
+    background-color: rgba(255, 255, 255, 0.419);
+}
+.menssage-noti img{
+    border-radius: 50%;
+}
+.sub-menssage-noti{
+    margin-left: 10px;
 }
 /*CONTEUDO SITE*/
 
@@ -288,6 +322,10 @@ body{
         font-size: 30px;
         color: white;
         margin-left: 70%;
+    }
+    .bar-navegacao .fa-times:hover{
+        color: red;
+    
     }
 
     .conteudo-geral {
